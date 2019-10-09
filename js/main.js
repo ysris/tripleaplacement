@@ -211,9 +211,9 @@ $(document).ready(function(){
   if ( $('#twitter-feeds').length ){
     initTwitterFeeds();
   };
-  if ( $('#nav').length ){
-    initAffixCheck();
-  };
+  // if ( $('#nav').length ){
+  //   initAffixCheck();
+  // };
   if ( $('.mobile-transparent').length ){
     initMobTranspFix();
   };
